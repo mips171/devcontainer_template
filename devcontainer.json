@@ -9,18 +9,6 @@
 	// We assume that your service will provide its own Dockerfile
 	"dockerFile": "./Dockerfile",
 	// Add extensions to the VS Code dev container environment here
-	"extensions": [
-		"esbenp.prettier-vscode",
-		"streetsidesoftware.code-spell-checker",
-		"aaron-bond.better-comments",
-		"timonwong.shellcheck",
-		"ZainChen.json",
-		"quicktype.quicktype",
-		"golang.go",
-		"sumneko.lua",
-		"ecmel.vscode-html-css",
-		"nordic-semiconductor.nrf-devicetree"
-	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [
 	// 	3000,
@@ -34,7 +22,19 @@
 			"settings": {
 				"editor.formatOnSave": true,
 				"editor.formatOnSaveMode": "file"
-			}
+			},
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"streetsidesoftware.code-spell-checker",
+				"aaron-bond.better-comments",
+				"timonwong.shellcheck",
+				"ZainChen.json",
+				"quicktype.quicktype",
+				"golang.go",
+				"sumneko.lua",
+				"ecmel.vscode-html-css",
+				"nordic-semiconductor.nrf-devicetree"
+			]
 		}
 	},
 	// Allow devcontainer to access local network

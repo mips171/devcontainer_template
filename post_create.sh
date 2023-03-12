@@ -14,6 +14,7 @@ GIT_USERNAME="Nicholas Smith"
 git config --global user.email "$GIT_EMAIL"
 git config --global user.name "$GIT_USERNAME"
 git config --global init.defaultBranch main
+git config codespaces-theme.hide-status 1
 
 # Setup aliases
 echo "alias buildall='/workspace/buildbot/buildall.sh'" >> ~/.bashrc
